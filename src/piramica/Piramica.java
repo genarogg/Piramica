@@ -1,5 +1,7 @@
 package piramica;
 
+import java.awt.FlowLayout;
+import java.awt.Font;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
@@ -36,6 +38,27 @@ public class Piramica {
     JTextField jT17;
     JTextField jT18;
     
+    public void construccionDePanelMedio(){
+       //Invocacion
+       jPanelMedio = new JPanel();
+       jTextA = new JTextArea(18,25);
+       
+       //Tamaño y fuene de la letra
+       jTextA.setFont(new Font(null ,1, 24));
+       jTextA.setForeground(new java.awt.Color(0, 102, 204));
+       
+       //anular la edicion del area de texto
+       jTextA.setEditable(false);
+       
+       //Layout de panel 
+       FlowLayout flowL = new FlowLayout(FlowLayout.LEFT);
+       
+       //añadir layout al panel
+       jPanelMedio.setLayout(flowL);
+       
+       //añadir el area de texto a jpanel
+       jPanelMedio.add(jTextA);     
+    }
     
     public static void main(String[] args) {
 
