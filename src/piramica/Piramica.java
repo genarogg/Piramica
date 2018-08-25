@@ -145,6 +145,41 @@ public class Piramica {
                 int sn16c2 = c2n16 % 10;  
                 int sn17c2 = c2n17 % 10; 
                 
+                //Suma de los numeros de la Terera Columna:
+                int su1c2 = sn1c2 + sn2c2;      
+                int su2c2 = sn2c2 + sn3c2;     
+                int su3c2 = sn3c2 + sn4c2;     
+                int su4c2 = sn4c2 + sn5c2;     
+                int su5c2 = sn5c2 + sn6c2;      
+                int su6c2 = sn6c2 + sn7c2;      
+                int su7c2 = sn7c2 + sn8c2;      
+                int su8c2 = sn8c2 + sn9c2;      
+                int su9c2 = sn9c2 + sn10c2;
+                int su10c2 = sn10c2 + sn11c2;
+                int su11c2 = sn11c2 + sn12c2;
+                int su12c2 = sn12c2 + sn13c2;
+                int su13c2 = sn13c2 + sn14c2;
+                int su14c2 = sn14c2 + sn15c2;
+                int su15c2 = sn15c2 + sn16c2;
+                int su16c2 = sn16c2 + sn17c2;
+                
+                //Separacion de numeros(terseraColumna):
+                int sn1c3 = su1c2 % 10;     
+                int sn2c3 = su2c2 % 10;      
+                int sn3c3 = su3c2 % 10;     
+                int sn4c3 = su4c2 % 10;     
+                int sn5c3 = su5c2 % 10;     
+                int sn6c3 = su6c2 % 10;       
+                int sn7c3 = su7c2 % 10;       
+                int sn8c3 = su8c2 % 10;     
+                int sn9c3 = su9c2 % 10;
+                int sn10c3 = su10c2 % 10;
+                int sn11c3 = su11c2 % 10;
+                int sn12c3 = su12c2 % 10;
+                int sn13c3 = su13c2 % 10;
+                int sn14c3 = su14c2 % 10;  
+                int sn15c3 = su15c2 % 10;
+                int sn16c3 = su16c2 % 10;
                 
                 
                 
