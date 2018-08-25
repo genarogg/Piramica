@@ -334,6 +334,30 @@ public class Piramica {
                 int sn9c8 = su9c8 % 10;
                 int sn10c8 = su10c8 % 10;
                 int sn11c8 = su11c8 % 10;
+                                //Suma de los numeros de la segunda Columna:
+                
+                int su1c9 = sn1c8 + sn2c8;      
+                int su2c9 = sn2c8 + sn3c8;      
+                int su3c9 = sn3c8 + sn4c8;      
+                int su4c9 = sn4c8 + sn5c8;      
+                int su5c9 = sn5c8 + sn6c8;      
+                int su6c9 = sn6c8 + sn7c8;      
+                int su7c9 = sn7c8 + sn8c8;      
+                int su8c9 = sn8c8 + sn9c8;      
+                int su9c9 = sn9c8 + sn10c8;
+                int su10c9 = sn10c8 + sn11c8;
+                
+                //Separacion de numeros(desimaColumna):
+                int sn1c9 = su1c9 % 10;     
+                int sn2c9 = su2c9 % 10;      
+                int sn3c9 = su3c9 % 10;       
+                int sn4c9 = su4c9 % 10;       
+                int sn5c9 = su5c9 % 10;          
+                int sn6c9 = su6c9 % 10;       
+                int sn7c9 = su7c9 % 10;       
+                int sn8c9 = su8c9 % 10;     
+                int sn9c9 = su9c9 % 10;
+                int sn10c9 = su10c9 % 10;
                 
                 
                 
