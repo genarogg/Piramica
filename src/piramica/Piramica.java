@@ -380,7 +380,48 @@ public class Piramica {
                 int sn7c10 = su7c10 % 10;       
                 int sn8c10 = su8c10 % 10;     
                 int sn9c10 = su9c10 % 10;
-               
+                //Suma de los numeros de la desimarimera Columna:
+                
+                int su1c11 = sn1c10 + sn2c10;      
+                int su2c11 = sn2c10 + sn3c10;      
+                int su3c11 = sn3c10 + sn4c10;      
+                int su4c11 = sn4c10 + sn5c10;      
+                int su5c11 = sn5c10 + sn6c10;      
+                int su6c11 = sn6c10 + sn7c10;      
+                int su7c11 = sn7c10 + sn8c10;      
+                int su8c11 = sn8c10 + sn9c10;      
+     
+                
+                //Separacion de numeros(desimaSegundaColumna):
+                int sn1c11 = su1c11 % 10;     
+                int sn2c11 = su2c11 % 10;      
+                int sn3c11 = su3c11 % 10;       
+                int sn4c11 = su4c11 % 10;       
+                int sn5c11 = su5c11 % 10;          
+                int sn6c11 = su6c11 % 10;       
+                int sn7c11 = su7c11 % 10;       
+                int sn8c11 = su8c11 % 10;     
+                //Suma de los numeros de la desimaSegunda Columna:
+                
+                int su1c12 = sn1c11 + sn2c11;      
+                int su2c12 = sn2c11 + sn3c11;      
+                int su3c12 = sn3c11 + sn4c11;      
+                int su4c12 = sn4c11 + sn5c11;      
+                int su5c12 = sn5c11 + sn6c11;      
+                int su6c12 = sn6c11 + sn7c11;      
+                int su7c12 = sn7c11 + sn8c11;      
+                     
+     
+                
+                //Separacion de numeros(desimaTerseraColumna):
+                int sn1c12 = su1c12 % 10;     
+                int sn2c12 = su2c12 % 10;      
+                int sn3c12 = su3c12 % 10;       
+                int sn4c12 = su4c12 % 10;       
+                int sn5c12 = su5c12 % 10;          
+                int sn6c12 = su6c12 % 10;       
+                int sn7c12 = su7c12 % 10;       
+                
                 
                 
                 
