@@ -248,7 +248,37 @@ public class Piramica {
                 int sn13c5 = su13c5 % 10;
                 int sn14c5 = su14c5 % 10;
                 
+                //Suma de los numeros de la sexta Columna:
+                int su1c6 = sn1c5 + sn2c5;      
+                int su2c6 = sn2c5 + sn3c5;      
+                int su3c6 = sn3c5 + sn4c5;      
+                int su4c6 = sn4c5 + sn5c5;      
+                int su5c6 = sn5c5 + sn6c5;      
+                int su6c6 = sn6c5 + sn7c5;      
+                int su7c6 = sn7c5 + sn8c5;      
+                int su8c6 = sn8c5 + sn9c5;      
+                int su9c6 = sn9c5 + sn10c5;
+                int su10c6 = sn10c5 + sn11c5;
+                int su11c6 = sn11c5 + sn12c5;
+                int su12c6 = sn12c5 + sn13c5;
+                int su13c6 = sn13c5 + sn14c5;
                 
+                //Separacion de numeros(sextaColumna):
+                
+                int sn1c6 = su1c6 % 10;     
+                int sn2c6 = su2c6 % 10;    
+                int sn3c6 = su3c6 % 10;     
+                int sn4c6 = su4c6 % 10;      
+                int sn5c6 = su5c6 % 10;          
+                int sn6c6 = su6c6 % 10;       
+                int sn7c6 = su7c6 % 10;       
+                int sn8c6 = su8c6 % 10;     
+                int sn9c6 = su9c6 % 10;
+                int sn10c6 = su10c6 % 10;
+                int sn11c6 = su11c6 % 10; 
+                int sn12c6 = su12c6 % 10;  
+                int sn13c6 = su13c6 % 10; 
+               
                 
                 
                 
