@@ -107,6 +107,44 @@ public class Piramica {
                 int c1n17 = Integer.parseInt(sN17);
                 int c1n18 = Integer.parseInt(sN18);
 
+                //Seguda columna de la piramide(suma):
+                int c2n1 = c1n1 + c1n2;
+                int c2n2 = c1n2 + c1n3; 
+                int c2n3 = c1n3 + c1n4;
+                int c2n4 = c1n4 + c1n5;
+                int c2n5 = c1n5 + c1n6;
+                int c2n6 = c1n6 + c1n7;
+                int c2n7 = c1n7 + c1n8;
+                int c2n8 = c1n8 + c1n9; 
+                int c2n9 = c1n9 + c1n10;
+                int c2n10 = c1n10 + c1n11;
+                int c2n11 = c1n11 + c1n12;
+                int c2n12 = c1n12 + c1n13;
+                int c2n13 = c1n13 + c1n14;    
+                int c2n14 = c1n14 + c1n15; 
+                int c2n15 = c1n15 + c1n16;     
+                int c2n16 = c1n16 + c1n17; 
+                int c2n17 = c1n17 + c1n18;
+                
+                //Separacion de numeros(segundaColumna):
+                int sn1c2 = c2n1 % 10;     
+                int sn2c2 = c2n2 % 10;      
+                int sn3c2 = c2n3 % 10;     
+                int sn4c2 = c2n4 % 10;     
+                int sn5c2 = c2n5 % 10;       
+                int sn6c2 = c2n6 % 10;     
+                int sn7c2 = c2n7 % 10;     
+                int sn8c2 = c2n8 % 10;     
+                int sn9c2 = c2n9 % 10;
+                int sn10c2 = c2n10 % 10;
+                int sn11c2 = c2n11 % 10;
+                int sn12c2 = c2n12 % 10;
+                int sn13c2 = c2n13 % 10; 
+                int sn14c2 = c2n14 % 10;
+                int sn15c2 = c2n15 % 10;  
+                int sn16c2 = c2n16 % 10;  
+                int sn17c2 = c2n17 % 10; 
+                
                 
                 
                 
