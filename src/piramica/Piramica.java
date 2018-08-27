@@ -552,7 +552,10 @@ public class Piramica {
          *jT17.setText("8"); 
          *jT18.setText("9");
         */
+        //layout del panel superior
+        FlowLayout flowL = new FlowLayout(FlowLayout.LEFT);
         
+        flowL.setHgap(1);   flowL.setVgap(2);
         
         
     }
