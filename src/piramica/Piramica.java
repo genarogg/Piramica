@@ -557,7 +557,27 @@ public class Piramica {
         
         flowL.setHgap(1);   flowL.setVgap(2);
         
+        //Añadir los jtextfield al panel
+        jPanelSuperior.add(jT1);    
+        jPanelSuperior.add(jT2);    
+        jPanelSuperior.add(jT3);    
+        jPanelSuperior.add(jT4);        
+        jPanelSuperior.add(jT5);    
+        jPanelSuperior.add(jT6);    
+        jPanelSuperior.add(jT7);    
+        jPanelSuperior.add(jT8);    
+        jPanelSuperior.add(jT9); 
+        jPanelSuperior.add(jT10);
+        jPanelSuperior.add(jT11);
+        jPanelSuperior.add(jT12);
+        jPanelSuperior.add(jT13);
+        jPanelSuperior.add(jT14);
+        jPanelSuperior.add(jT15);
+        jPanelSuperior.add(jT16);   
+        jPanelSuperior.add(jT17);   
+        jPanelSuperior.add(jT18);
         
+        jPanelSuperior.add(jBCalcular);
     }
     public static void main(String[] args) {
 
