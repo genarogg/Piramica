@@ -495,7 +495,27 @@ public class Piramica {
                 //Separacion de numeros(desimaOctavaColumna):
                 int sn1c18 = su1c18 % 10;
                
-                
+                //Introduccion de datos al textArea
+                jTextA.setText("" + "  " + c1n1 + "  " + c1n2  + "  " + c1n3  + "  " + c1n4  + "  " + c1n5 + "  " + c1n6 + "  " + c1n7 + "  " + c1n8 + "  " + c1n9 + "  " + c1n10 + "  " + c1n11 + "  "  + c1n12 + "  "  + c1n13 + "  " + c1n14 + "  " + c1n15 + "  " + c1n16 + "  " + c1n17 + "  " + c1n18 + "  " + 
+                        
+                               "\n" + "    " + sn1c2 + "  " + sn2c2 + "  " + sn3c2 + "  " + sn4c2 + "  " + sn5c2 + "  " + sn6c2 + "  " + sn7c2 + "  " + sn8c2 + "  " + sn9c2 + "  " + sn10c2 + "  " + sn11c2 + "  " + sn12c2 + "  " + sn13c2 + "  " + sn14c2 + "  " + sn15c2 + "  " + sn16c2 + "  " + sn17c2 + "  " + 
+                               "\n" + "      " + sn1c3 + "  " + sn2c3 + "  " + sn3c3 + "  " + sn4c3 + "  " + sn5c3 + "  " + sn6c3 + "  " + sn7c3 + "  " + sn8c3 + "  " + sn9c3 + "  " + sn10c3 + "  " + sn11c3 + "  " + sn12c3 + "  " + sn13c3 + "  " + sn14c3 + "  " + sn15c3 + "  " + sn16c3 + "  " + 
+                               "\n" + "        " + sn1c4 + "  " + sn2c4 + "  " + sn3c4 + "  " + sn4c4 + "  " + sn5c4 + "  " + sn6c4 + "  " + sn7c4 + "  " + sn8c4 + "  " + sn9c4 + "  " + sn10c4 + "  " + sn11c4 + "  " + sn12c4 + "  " + sn13c4 + "  " + sn14c4 + "  " + sn15c4 + "  " + 
+                               "\n" + "          " + sn1c5 + "  " + sn2c5 + "  " + sn3c5 + "  " + sn4c5 + "  " + sn5c5 + "  " + sn6c5 + "  " + sn7c5 + "  " + sn8c5 + "  " + sn9c5 + "  " + sn10c5 + "  " + sn11c5 + "  " + sn12c5 + "  " + sn13c5 + "  " + sn14c5 + "  " + 
+                               "\n" + "            " + sn1c6 + "  " + sn2c6 + "  " + sn3c6 + "  " + sn4c6 + "  " + sn5c6 + "  " + sn6c6 + "  " + sn7c6 + "  " + sn8c6 + "  " + sn9c6 + "  " + sn10c6 + "  " + sn11c6 + "  " + sn12c6 + "  " + sn13c6 + "  " + 
+                               "\n" + "              " + sn1c7 + "  " + sn2c7 + "  " + sn3c7 + "  " + sn4c7 + "  " + sn5c7 + "  " + sn6c7 + "  " + sn7c7 + "  " + sn8c7 + "  " + sn9c7 + "  " + sn10c7 + "  " + sn11c7 + "  " + sn12c7 + "  " + 
+                               "\n" + "                " + sn1c8 + "  " + sn2c8 + "  " + sn3c8 + "  " + sn4c8 + "  " + sn5c8 + "  " + sn6c8 + "  " + sn7c8 + "  " + sn8c8 + "  " + sn9c8 + "  " + sn10c8 + "  " + sn11c8 + "  " + 
+                               "\n" + "                  " + sn1c9 + "  " + sn2c9 + "  " + sn3c9 + "  " + sn4c9 + "  " + sn5c9 + "  " + sn6c9 + "  " + sn7c9 + "  " + sn8c9 + "  " + sn9c9 + "  " + sn10c9 + "  " + 
+                               
+                               "\n" + "                    " + sn1c10 + "  " + sn2c10 + "  " + sn3c10 + "  " + sn4c10 + "  " + sn5c10 + "  " + sn6c10 + "  " + sn7c10 + "  " + sn8c10 + "  " + sn9c10 + "  " + 
+                               "\n" + "                      " + sn1c11 + "  " + sn2c11 + "  " + sn3c11 + "  " + sn4c11 + "  " + sn5c11 + "  " + sn6c11 + "  " + sn7c11 + "  " + sn8c11 + "  " + 
+                               "\n" + "                        " + sn1c12 + "  " + sn2c12 + "  " + sn3c12 + "  " + sn4c12 + "  " + sn5c12 + "  " + sn6c12 + "  " + sn7c12 + "  " + 
+                               "\n" + "                          " + sn1c13 + "  " + sn2c13 + "  " + sn3c13 + "  " + sn4c13 + "  " + sn5c13 + "  " + sn6c13 + "  " + 
+                               "\n" + "                            " + sn1c14 + "  " + sn2c14 + "  " + sn3c14 + "  " + sn4c14 + "  " + sn5c14 + "  " + 
+                               "\n" + "                              " + sn1c15 + "  " + sn2c15 + "  " + sn3c15 + "  " + sn4c15 + "  " + 
+                               "\n" + "                                " + sn1c16 + "  " + sn2c16 + "  " + sn3c16 + "  " + 
+                               "\n" + "                                  " + sn1c17 + "  " + sn2c17 + "  " +
+                               "\n" + "                                    " + sn1c18 + "  ");
                 }
         };
         
