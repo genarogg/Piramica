@@ -489,7 +489,12 @@ public class Piramica {
                 int sn1c17 = su1c17 % 10;     
                 int sn2c17 = su2c17 % 10;      
 
-                
+                //Suma de los numeros de la desimaOctava Columna:
+                int su1c18 = sn1c17 + sn2c17;      
+                      
+                //Separacion de numeros(desimaOctavaColumna):
+                int sn1c18 = su1c18 % 10;
+               
                 
                 }
         };
