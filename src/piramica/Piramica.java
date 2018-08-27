@@ -480,7 +480,15 @@ public class Piramica {
                 int sn2c16 = su2c16 % 10;      
                 int sn3c16 = su3c16 % 10;   
                 
+                //Suma de los numeros de la desimaseptima Columna:
                 
+                int su1c17 = sn1c16 + sn2c16;      
+                int su2c17 = sn2c16 + sn3c16;      
+                 
+                //Separacion de numeros(desimaseptimaColumna):
+                int sn1c17 = su1c17 % 10;     
+                int sn2c17 = su2c17 % 10;      
+
                 
                 
                 }
