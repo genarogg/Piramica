@@ -521,6 +521,16 @@ public class Piramica {
         
         jBCalcular.addActionListener(listeners);
          
+        //tamaño de los JtextField    
+        jT1 = new JTextField(1);    jT10 = new JTextField(1);
+        jT2 = new JTextField(1);    jT11 = new JTextField(1);
+        jT3 = new JTextField(1);    jT12 = new JTextField(1);
+        jT4 = new JTextField(1);    jT13 = new JTextField(1);
+        jT5 = new JTextField(1);    jT14 = new JTextField(1);
+        jT6 = new JTextField(1);    jT15 = new JTextField(1);
+        jT7 = new JTextField(1);    jT16 = new JTextField(1);
+        jT8 = new JTextField(1);    jT17 = new JTextField(1);
+        jT9 = new JTextField(1);    jT18 = new JTextField(1);
         
         
         
