@@ -532,7 +532,26 @@ public class Piramica {
         jT8 = new JTextField(1);    jT17 = new JTextField(1);
         jT9 = new JTextField(1);    jT18 = new JTextField(1);
         
-        
+        /*//Teste
+         *jT1.setText("1");   
+         *jT2.setText("2");   
+         *jT3.setText("3");   
+         *jT4.setText("4");   
+         *jT5.setText("5");   
+         *jT6.setText("6");   
+         *jT7.setText("7");   
+         *jT8.setText("8");   
+         *jT9.setText("9");
+         *jT10.setText("1");
+         *jT11.setText("2");
+         *jT12.setText("3");
+         *jT13.setText("4");
+         *jT14.setText("5");
+         *jT15.setText("6");
+         *jT16.setText("7");
+         *jT17.setText("8"); 
+         *jT18.setText("9");
+        */
         
         
         
