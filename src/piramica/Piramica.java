@@ -1,11 +1,21 @@
 package piramica;
 
+import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
@@ -38,6 +48,41 @@ public class Piramica {
     JTextField jT17;
     JTextField jT18;
     
+    public Piramica(){
+        JFrame jF = new JFrame ();
+        
+        //Invocacion de los paneles
+        construccionDePanelSupertior();
+        construccionDePanelMedio();
+        
+        //Establece la posicion en pantalla
+        Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();
+        int alto = pantalla.height; 
+        int ancho = pantalla.width; 
+        
+        jF.setBounds(  ancho/3 + 80, alto/5, 0 ,0 );
+        
+        //Desabilita la modificacion de la ventana(Tamaño)
+        jF.setResizable(false);
+        
+        //Cambiar el icono
+        ImageIcon ImageIcon = new ImageIcon(getClass().getResource("PiramicaV1.png"));
+        Image Image = ImageIcon.getImage();
+        jF.setIconImage(Image);
+        
+        //Titulo de la ventana
+        jF.setTitle("Piramica v1.0                                           by: genarogg                                                        ");
+       
+        //Añadir paneles
+        jF.add(jPanelSuperior,BorderLayout.NORTH);
+        jF.add(jPanelMedio,BorderLayout.WEST);
+        
+        //JFrame
+        jF.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jF.setVisible(true);
+        jF.pack();
+        
+    }
     public void construccionDePanelMedio(){
        //Invocacion
        jPanelMedio = new JPanel();
@@ -58,8 +103,7 @@ public class Piramica {
        
        //añadir el area de texto a jpanel
        jPanelMedio.add(jTextA);     
-    }
-    
+    } 
     public void construccionDePanelSupertior(){
         jPanelSuperior = new JPanel(); 
         
