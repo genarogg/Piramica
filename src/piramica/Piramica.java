@@ -581,5 +581,12 @@ public class Piramica {
     }
     public static void main(String[] args) {
 
+        try{
+            UIManager.setLookAndFeel("de.javasoft.plaf.synthetica.SyntheticaBlackEyeLookAndFeel");
+        }
+        catch(UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException | IllegalAccessException e){
+            
+        }
+        new Piramica();  
     }    
 }
