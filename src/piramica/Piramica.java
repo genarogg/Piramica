@@ -442,7 +442,21 @@ public class Piramica {
                 int sn5c13 = su5c13 % 10;          
                 int sn6c13 = su6c13 % 10;       
                 
+                //Suma de los numeros de la desimaCuarta Columna:
                 
+                int su1c14 = sn1c13 + sn2c13;      
+                int su2c14 = sn2c13 + sn3c13;      
+                int su3c14 = sn3c13 + sn4c13;      
+                int su4c14 = sn4c13 + sn5c13;      
+                int su5c14 = sn5c13 + sn6c13;      
+                
+                //Separacion de numeros(desimaCuartaColumna):
+                int sn1c14 = su1c14 % 10;     
+                int sn2c14 = su2c14 % 10;      
+                int sn3c14 = su3c14 % 10;       
+                int sn4c14 = su4c14 % 10;       
+                int sn5c14 = su5c14 % 10;          
+
                 
                
                 
