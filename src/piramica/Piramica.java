@@ -20,6 +20,9 @@ import javax.swing.UnsupportedLookAndFeelException;
 /**
  *
  * @author Genarogg
+ * 
+ * Las librerias esenciales para la visualizacion correcta se
+ * encuentran en la carpeta dist
  */
 
 public class Piramica {
