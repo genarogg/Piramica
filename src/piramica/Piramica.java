@@ -26,9 +26,9 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 
 public class Piramica {
-    JPanel jPanelSuperior,jPanelMedio;
-    JButton jBCalcular;
-    JTextArea jTextA;
+    private JPanel jPanelSuperior,jPanelMedio;
+    private JButton jBCalcular;
+    private JTextArea jTextA;
     
     //Variables de introduccion de datos a la piramide:
     
