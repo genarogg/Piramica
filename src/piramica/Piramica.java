@@ -29,24 +29,24 @@ public class Piramica {
     
     //Variables de introduccion de datos a la piramide:
     
-    JTextField jT1;     
-    JTextField jT2;     
-    JTextField jT3;     
-    JTextField jT4;     
-    JTextField jT5;     
-    JTextField jT6;     
-    JTextField jT7;     
-    JTextField jT8;     
-    JTextField jT9;
-    JTextField jT11; 
-    JTextField jT10;
-    JTextField jT12;
-    JTextField jT13;     
-    JTextField jT14;
-    JTextField jT15;
-    JTextField jT16;
-    JTextField jT17;
-    JTextField jT18;
+    private JTextField jT1;     
+    private JTextField jT2;     
+    private JTextField jT3;     
+    private JTextField jT4;     
+    private JTextField jT5;     
+    private JTextField jT6;     
+    private JTextField jT7;     
+    private JTextField jT8;     
+    private JTextField jT9;
+    private JTextField jT11; 
+    private JTextField jT10;
+    private JTextField jT12;
+    private JTextField jT13;     
+    private JTextField jT14;
+    private JTextField jT15;
+    private JTextField jT16;
+    private JTextField jT17;
+    private JTextField jT18;
     
     public Piramica(){
         JFrame jF = new JFrame ();
